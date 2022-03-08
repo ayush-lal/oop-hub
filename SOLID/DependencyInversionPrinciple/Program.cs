@@ -17,7 +17,7 @@ namespace DotNetDesignPatternDemos.SOLID.DependencyInversionPrinciple
 
     public class Person
     {
-        public string Name;
+        public string? Name;
         // public DateTime DateOfBirth;
     }
 
