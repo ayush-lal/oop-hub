@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace InheritanceHell
+﻿namespace InheritanceHell
 {
 
     public class Program

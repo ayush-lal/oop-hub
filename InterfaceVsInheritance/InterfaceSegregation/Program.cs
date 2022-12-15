@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace InterfaceSegregation
+﻿namespace InterfaceSegregation
 {
 
     public class Program
@@ -8,7 +6,7 @@ namespace InterfaceSegregation
         static void Main(string[] args)
         {
             var rentals = new List<IRental>();
-            
+
             rentals.Add(new Truck() {CurrentRenter = "Truck Renter"});
             rentals.Add(new SailBoat() {CurrentRenter = "Sailboat Renter"});
             rentals.Add(new Car() {CurrentRenter = "Car Renter"});
